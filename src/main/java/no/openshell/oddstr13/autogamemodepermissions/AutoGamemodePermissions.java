@@ -41,7 +41,7 @@ public class AutoGamemodePermissions extends JavaPlugin {
         pm.registerEvent(Event.Type.PLAYER_TELEPORT , myListener, Priority.Monitor, this);
 
         // Register commands
-        getCommand("agp").setExecutor(new AutoGamemodePermissionsCommandhandler(this));
+        //getCommand("agp").setExecutor(new AutoGamemodePermissionsCommandhandler(this));
 
         System.out.println(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled.");
     }
