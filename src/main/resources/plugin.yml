@@ -1,0 +1,11 @@
+main: "no.openshell.oddstr13.autogamemodepermissions.AutoGamemodePermissions"
+name: "AutoGamemodePermissions"
+version: "1.0.0"
+description: "Permission nodes to automaticly set gamemode on teleport to another world."
+author: "Oddstr13"
+website: "https://github.com/oddstr13/AutoGamemodePermissions"
+commands:
+  minecartmeter:
+    Description: 'Do AutoGamemodePermissions stuff'
+    Usage: '/agp'
+
