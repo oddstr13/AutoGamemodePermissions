@@ -28,7 +28,9 @@ public class AutoGamemodePermissionsListener extends PlayerListener {
             if (from.getWorld().getName() != to.getWorld().getName()) {
                 plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
                     public void run() {
-                        if (player.hasPermission("autogamemodepermissions.1")) {
+                        if (player.hasPermission("autogamemodepermissions.0")) {
+                            player.setGameMode(GameMode.SURVIVAL);
+                        } else if (player.hasPermission("autogamemodepermissions.1")) {
                             player.setGameMode(GameMode.CREATIVE);
                         }
                     }
